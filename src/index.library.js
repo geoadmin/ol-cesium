@@ -11,6 +11,10 @@ import VectorLayerCounterpart from './olcs/core/VectorLayerCounterpart.js';
 import LazyLoader from './olcs/contrib/LazyLoader.js';
 import Manager from './olcs/contrib/Manager.js';
 
+import GaKmlSynchronizer from './olcs/GaKmlSynchronizer.js';
+import GaRasterSynchronizer from './olcs/GaRasterSynchronizer.js';
+import GaTileset3dSynchronizer from './olcs/GaTileset3dSynchronizer.js';
+import GaVectorSynchronizer from './olcs/GaVectorSynchronizer.js';
 
 export default OLCesium;
 
@@ -30,3 +34,8 @@ olcs.core.VectorLayerCounterpart = VectorLayerCounterpart;
 olcs.contrib = {};
 olcs.contrib.LazyLoader = LazyLoader;
 olcs.contrib.Manager = Manager;
+
+olcs.GaKmlSynchronizer = GaKmlSynchronizer;
+olcs.GaRasterSynchronizer = GaRasterSynchronizer;
+olcs.GaTileset3dSynchronizer = GaTileset3dSynchronizer;
+olcs.GaVectorSynchronizer = GaVectorSynchronizer;
